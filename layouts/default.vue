@@ -32,8 +32,8 @@ html {
 }
 
 .button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
+  border: .1rem solid #FF8833;
+  color: #FF8833;
 }
 
 .button--grey {

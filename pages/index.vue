@@ -18,9 +18,16 @@
   </section>
 </template>
 
+<script>
+  const quotes = [
+    "Find out how VALVE brainwashed your mind",
+    "Find out how obessed and fucked up you are."
+  ]
+</script>
+
 <style>
 body {
-  background: #222222
+  background: #292929
 }
 
 .container {
@@ -29,10 +36,11 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background: url('/haya.png')
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-family: "Noto Sans", sans-serif; /* 1 */
   display: block;
   font-weight: 300;
   font-size: 100px;
@@ -41,6 +49,7 @@ body {
 }
 
 .subtitle {
+  font-family: "Noto Sans", sans-serif; /* 1 */
   font-weight: 300;
   font-size: 42px;
   color: #fafafa;
