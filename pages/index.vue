@@ -1,38 +1,28 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
+      <img src="hl2.svg" alt="">
       <h1 class="title">
-        hl2quiz
+        Half-Life 2 Sound Quiz
       </h1>
       <h2 class="subtitle">
-        Half-Life 2 Quiz
+        Find out how obessed and fucked up you are.
       </h2>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+          class="button--green">Start Quiz</a>
       </div>
     </div>
   </section>
 </template>
 
-<script>
-import AppLogo from '~/components/AppLogo.vue'
-
-export default {
-  components: {
-    AppLogo
-  }
-}
-</script>
-
 <style>
+body {
+  background: #222222
+}
+
 .container {
   min-height: 100vh;
   display: flex;
@@ -46,14 +36,14 @@ export default {
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: #fafafa;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
+  color: #fafafa;
   word-spacing: 5px;
   padding-bottom: 15px;
 }

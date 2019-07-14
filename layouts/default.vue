@@ -23,11 +23,12 @@ html {
 
 .button--green {
   display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
+  border-radius: 16px;
+  border: .1rem solid #F26622;
+  color: #F26622;
   text-decoration: none;
-  padding: 10px 30px;
+  font-size: 2rem;
+  padding: 0.7rem 2.3rem;
 }
 
 .button--green:hover {
