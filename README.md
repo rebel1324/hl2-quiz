@@ -1,6 +1,8 @@
 # hl2quiz
 
 > Half-Life 2 Quiz
+> In collaboration with George "casadis" Butler and Kyu Yeon "rebel" Lee
+> Powered by nuxt.js [https://github.com/nuxt/]
 
 ## Build Setup
 
@@ -18,6 +20,3 @@ $ npm start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-
